@@ -1,0 +1,227 @@
+<!-- This site is for individual assignment for education, not for commercial. -->
+<!-- 이 사이트는 교육목적으로 제작한 개인과제이며 상업용으로 쓰이지 않습니다.-->
+
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOAPOP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+        
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#nav-menu">
+  
+  <!-- 네비게이션바 -->
+  <nav class="navbar navbar-expand-md fixed-top" style=background-color:#2b2b2b>
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width=100 height=40 alt="로고" class="logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu"
+            aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-menu">
+            <ul class="navbar-nav ms-auto my-2">
+                <li class="nav-item"><a class="nav-link" href="index.html">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="character.html">CHARACTER</a></li>
+                <li class="nav-item"><a class="nav-link" href="relationship.html">RELATIONSHIP</a></li>
+                <li class="nav-item"><a class="nav-link" href="episode.html">EPISODE</a></li>
+                <li class="nav-item"><a class="nav-link" href="production.html">PRODUCTION</a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+  <!-- 전체 -->
+  <section class="container">
+  <div class="char">
+    <h1>CHARACTERS</h1>
+    <h2>캐릭터</h2>
+  </div>
+  </section>
+
+  <!-- 카드 -->
+  <section class="container-fluid">
+   <div class="row row-cols-2 row-cols-md-6 justify-contents-center">
+    <div class="col">
+      <div class="card text-bg-secondary text-center" style="width: 12rem">
+        <img src="img/char_rachel.jpeg" class="card-img-top" alt="Rachel">
+        <div class="card-body">
+          <a href=#char_rach class="card-link">&nbsp;<br>Rachel Green<br>&nbsp;</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-secondary text-center" style="width: 12rem">
+        <img src="img/char_ross.jpeg" class="card-img-top" alt="Ross">
+        <div class="card-body">
+          <a href=#char_ross class="card-link">&nbsp;<br>Ross Geller<br>&nbsp;</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-secondary text-center" style="width: 12rem">
+        <img src="img/char_monica.jpeg" class="card-img-top" alt="Monica">
+        <div class="card-body">
+          <a href=#char_monica class="card-link">&nbsp;<br>Monica Geller<br>&nbsp;</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-secondary text-center" style="width: 12rem">
+        <img src="img/char_chandler.jpeg" class="card-img-top" alt="Chandler">
+        <div class="card-body">
+          <a href=#char_chandler class="card-link">&nbsp;<br>Chandler Bing<br>&nbsp;</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-secondary text-center" style="width: 12rem">
+        <img src="img/char_pheobe.jpeg" class="card-img-top" alt="Pheobe">
+        <div class="card-body">
+          <a href=#char_pheobe class="card-link">&nbsp;<br>Pheobe Buffay<br>&nbsp;</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-secondary text-center" style="width: 12rem">
+        <img src="img/char_joey.jpeg" class="card-img-top" alt="Joey">
+        <div class="card-body">
+          <a href=#char_joey class="card-link">&nbsp;<br>Joey Tribianni<br>&nbsp;</a>
+        </div>
+      </div>
+    </div>  
+  </div>
+  </section>
+
+
+  <!-- 레이첼 -->
+  <section class="container">
+    <div class="justify-contents-evenly">
+      <div class="charimg flex-container">
+        <img src="img/charexp_rachel.jpeg" id="char_rach" width="450">
+        <div class="charexp d-flex col">
+          <h1>Rachel Green</h1>
+          <p class="lh-lg">
+           부잣집 딸로 태어나 온실 속 화초로 자라온 캐릭터이다.<br>
+           모니카와는 같은 고등학교를 나온 친구이며 인기가 많아 프롬퀸에 등극하기도 했다.<br>
+           하지만 성인이 된 후애는 돈을 많이 버는 의사였던 배리와의 결혼식에서 뛰쳐나와 처음으로 독립 생활을 하게 되는데,<br>
+           그 과정에서 친구들을 만나 점점 성장하는 캐릭터이다.<br>
+           밝고 명랑한 성격의 전형적인 로코 여주인공이며<br>
+           '아메리칸 스윗하트'라는 별명을 얻기도 했다.
+          </p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- 로스 -->
+  <section class="container">
+    <div class="justify-contents-evenly">
+      <div class="charimg flex-container">
+        <img src="img/charexp_ross.jpeg" id="char_ross" width="450">
+        <div class="charexp d-flex col">
+          <h1>Ross Geller</h1>
+          <p class="lh-lg">
+           가장 먼저 결혼한 캐릭터이지만, 아내인 캐롤이 레즈비언이라 이혼을 하게 된다.<br>
+           우유부단하고 어리버리한 너드 스타일이며 고고학 '박사'임을 항상 강조한다.<br>
+           부모님에게 과한 애정을 받으며 자라서 마마보이 기질이 있기도 하다.<br>
+           극 중 레이첼과 러브라인이며, 명대사로는 "We were on a break!"가 있다.<br>
+           여섯 친구들 중 가장 보수적이고 가부장적이며 고집있는 캐릭터이다.<br>
+           하지만 아들 벤을 대하는 태도는 한없이 따뜻한 보호자의 모습이다.
+          </p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- 모니카 -->
+  <section class="container">
+    <div class="justify-contents-evenly">
+      <div class="charimg flex-container">
+        <img src="img/charexp_monica.jpeg" id="char_monica" width="450">
+        <div class="charexp d-flex col">
+          <h1>Monica Geller</h1>
+          <p class="lh-lg">
+           로스의 여동생이며 요리사가 직업이다.<br>
+           승부욕이 강하고 청소와 정리정돈에 집착하는 면이 있다.<br>
+           사랑과 결혼에 대한 동경이 있으며 챈들러와 러브라인으로 이어진다.<br>
+           오빠인 로스를 편애하는 부모님에게 불만이 많았지만, 나중에는 아버지가 이를 알고 자신이 타던 포르쉐를 선물로 주기도 한다.<br>
+           목소리가 크고 대장부 같은 성격으로 친구들 간의 거의 모든 행사를 주도한다.<br>
+           드라마가 진행되는 거의 모든 장면이 모니카의 아파트에서 이루어지기 때문에 '호스트'가 되는 것을 즐긴다.
+          </p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- 챈들러 -->
+  <section class="container">
+    <div class="justify-contents-evenly">
+      <div class="charimg flex-container">
+        <img src="img/charexp_chandler.jpeg" id="char_chandler" width="450">
+        <div class="charexp d-flex col">
+          <h1>Chandler Bing</h1>
+          <p class="lh-lg">
+           가장 현실적이고 상식적인 캐릭터이며 농담하는 것을 매우 좋아한다.<br>
+           아버지는 게이이고 어머니는 성인소설을 쓰는 작가로 상당한 콩가루 집안이다.<br>
+           어릴 적 부모님의 이혼 소식에 충격을 받아 비꼬는 농담을 많이 하기도 하고 스트레스를 받으면 흡연을 하기도 한다.<br>
+           말할 때 특유의 억양이 있으며, 남자 캐릭터들 중 가장 섬세하고 센스있다.<br>
+           연애에 있어서 서툰 모습을 보이지만, 모니카와의 러브라인을 통해 사랑스러운 캐릭터로 변해간다.
+          </p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- 피비 -->
+  <section class="container">
+    <div class="justify-contents-evenly">
+      <div class="charimg flex-container">
+        <img src="img/charexp_pheobe.jpeg" id="char_pheobe" width="450">
+        <div class="charexp d-flex col">
+          <h1>Pheobe Buffay</h1>
+          <p class="lh-lg">
+           직업은 마사지사이며 가끔 센트럴퍼크 카페에서 아마추어 가수로 공연하기도 한다.<br>
+           친구들 중 가장 힘든 어린시절을 보냈기 때문에 꽤나 성깔있는 모습이 자주 보인다.<br>
+           채식주의자이며 영적인 능력을 믿고 대기업을 싫어하는 등 엉뚱하고 히피스러운 매력이 있다.<br>
+           배다른 남동생의 아이를 인공수정을 통해 임신하는 등 가족을 만드는 것에 헌신적이다.<br>
+           가끔 불어나 이탈리아어를 구사하기도 하는 매력적인 캐릭터이다.
+          </p>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- 조이 -->
+  <section class="container">
+    <div class="justify-contents-evenly">
+      <div class="charimg flex-container">
+        <img src="img/charexp_joey.jpeg" id="char_joey" width="450">
+        <div class="charexp d-flex col">
+          <h1>Joey Tribianni</h1>
+          <p class="lh-lg">
+           직업은 배우이며, 먹는 것과 여자를 제일 좋아한다.<br>
+           여자들을 꼬실 때 'How you doin-?'이라고 말하는 습관이 있다.<br>
+           똑똑하진 않지만 정과 의리가 넘치는 캐릭터이며 화목한 대가족 밑에서 자랐다.<br>
+           챈들러와의 브로맨스가 많으며 밝은 성격으로 분위기 메이커 역할을 많이 한다.<br>
+           홀로 아이를 키우려는 레이첼에게 든든한 존재가 되어주겠다고 말하는 등<br>
+           한없이 가벼워 보이다가도 꽤나 의젓한 면이 있는 캐릭터이다.
+          </p>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+</body>
+</html>
